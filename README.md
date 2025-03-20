@@ -18,6 +18,11 @@ Este proyecto es una **interfaz web para la gestión del stock de pinturas**, cr
 - **PHP**: Lenguaje de programación utilizado para desarrollar la lógica de la aplicación web.
 - **MySQL**: Base de datos para almacenar la información del inventario.
 - **HTML/CSS**: Para la creación de la interfaz de usuario.
+- 
+## Acceder a la Aplicación
+
+Una vez que los contenedores estén en funcionamiento,
+puedes acceder a la aplicación desde tu navegador web usando la IP de la MV utilizada.
 
 ## Instalación
 
@@ -34,6 +39,4 @@ git clone https://github.com/frapinroi/proyecto.git
 cd proyecto
 docker-compose up -d
 
-## Acceder a la Aplicación
 
-Una vez que los contenedores estén en funcionamiento, puedes acceder a la aplicación desde tu navegador web usando la IP de la MV utilizada.

@@ -33,6 +33,7 @@ Primero, clona el repositorio en tu máquina local utilizando **Git**. Abre una 
 ```bash
 git clone https://github.com/frapinroi/proyecto.git
 cd proyecto
+```
 
 #### 2.Configuración de Docker y Docker Compose
 Una vez que tengas el proyecto clonado, no necesitas hacer ninguna configuración adicional, ya que el archivo docker-compose.yml ya incluye toda la configuración necesaria para los contenedores de Nginx, PHP y MySQL.

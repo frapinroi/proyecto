@@ -1,0 +1,127 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Contenedor principal */
+.container {
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo para botones generales */
+button {
+    font-size: 14px;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Efecto hover en botones */
+button:hover {
+    transform: scale(1.05);
+}
+
+/* Botón de "Volver atrás" */
+.back-button {
+    background-color: #ff9800;
+    color: white;
+    font-weight: bold;
+}
+
+.back-button:hover {
+    background-color: #e68900;
+}
+
+/* Botones de acción */
+.comprar-button {
+    background-color: #28a745;
+    color: white;
+}
+
+.comprar-button:hover {
+    background-color: #218838;
+}
+
+.tengo-button {
+    background-color: #dc3545;
+    color: white;
+}
+
+.tengo-button:hover {
+    background-color: #c82333;
+}
+
+/* Estado de los botones según su valor */
+.comprar-1, .tengo-1 {
+    background-color: #6c757d;
+    cursor: not-allowed;
+}
+
+.comprar-0 {
+    background-color: #28a745;
+}
+
+.tengo-0 {
+    background-color: #dc3545;
+}
+
+/* Botón deshabilitado */
+button:disabled {
+    background-color: #bbb;
+    cursor: not-allowed;
+}
+
+/* Tablas compactas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 6px;
+    text-align: center;
+    font-size: 14px;
+}
+
+th {
+    background-color: #1F3A93;
+    color: white;
+}
+
+/* Centrar botones en la página index */
+.index-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+/* Adaptación para pantallas pequeñas */
+@media (max-width: 600px) {
+    .container {
+        width: 95%;
+    }
+    
+    table {
+        font-size: 12px;
+    }
+    
+    button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+}

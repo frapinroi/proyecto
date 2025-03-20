@@ -19,10 +19,6 @@ Este proyecto es una **interfaz web para la gestión del stock de pinturas**, cr
 - **MySQL**: Base de datos para almacenar la información del inventario.
 - **HTML/CSS**: Para la creación de la interfaz de usuario.
 - 
-## Acceder a la Aplicación
-
-Una vez que los contenedores estén en funcionamiento,
-puedes acceder a la aplicación desde tu navegador web usando la IP de la MV utilizada.
 
 ## Instalación
 
@@ -30,13 +26,23 @@ puedes acceder a la aplicación desde tu navegador web usando la IP de la MV uti
 
 Asegúrate de tener **Git**, **Docker** y **Docker Compose** instalados en tu sistema.
 
-### Clonación del Proyecto
+#### 1. Clonar el Repositorio
 
-Si tienes **Git** instalado, clona el repositorio con el siguiente comando:
+Primero, clona el repositorio en tu máquina local utilizando **Git**. Abre una terminal y ejecuta:
 
 ```bash
 git clone https://github.com/frapinroi/proyecto.git
 cd proyecto
+
+#### 2.Configuración de Docker y Docker Compose
+Una vez que tengas el proyecto clonado, no necesitas hacer ninguna configuración adicional, ya que el archivo docker-compose.yml ya incluye toda la configuración necesaria para los contenedores de Nginx, PHP y MySQL.
+
+#### 3. Levantar los Contenedores con Docker Compose
+Para levantar los contenedores y poner en marcha la aplicación, ejecuta el siguiente comando en la terminal desde la carpeta del proyecto:
+
+```bash
 docker-compose up -d
 
+#### 4. Acceder a la Aplicación
 
+Una vez que los contenedores estén en funcionamiento, puedes acceder a la aplicación desde tu navegador web usando la IP de la MV utilizada.

@@ -43,7 +43,7 @@ Para levantar los contenedores y poner en marcha la aplicación, ejecuta el sigu
 
 ```bash
 docker-compose up -d
-
+```
 #### 4. Acceder a la Aplicación
 
 Una vez que los contenedores estén en funcionamiento, puedes acceder a la aplicación desde tu navegador web usando la IP de la MV utilizada.
